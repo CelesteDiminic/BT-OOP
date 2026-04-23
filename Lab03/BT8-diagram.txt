@@ -1,0 +1,16 @@
++---------------------------------+          +-----------------------------------------+
+|           cNhanVienSX           |          |             cDSNhanVienSX               |
++---------------------------------+          +-----------------------------------------+
+| - maNV: string                  | <------+ | - n: int                                |
+| - hoTen: string                 |   1..* | - ds: vector<cNhanVienSX>               |
+| - ngaySinh: string              |          +-----------------------------------------+
+| - soSP: int                     |          | + nhap()                                |
+| - donGia: double                |          | + xuat()                                |
++---------------------------------+          | + timLuongThapNhat()                    |
+| + cNhanVienSX()                 |          | + tinhTongLuong(): double               |
+| + get/set methods               |          | + timNhanVienLonTuoiNhat()              |
+| + nhap()                        |          | + sapXepTangDanTheoLuong()              |
+| + xuat() const                  |          +-----------------------------------------+
+| + tinhLuong(): double           |
+| + parseDate(): Date             |
++---------------------------------+

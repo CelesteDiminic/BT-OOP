@@ -1,0 +1,19 @@
++------------------------------------------+
+|                  cArray                  |
++------------------------------------------+
+| - arr: int* |
+| - n: int                                 |
++------------------------------------------+
+| + cArray(size: int)                      |
+| + ~cArray()                              |
+| - checkSNT(val: int): bool               |
+| + taoMangNgauNhien()                     |
+| + nhapThuCong()                          |
+| + xuat()                                 |
+| + demSoLanXuatHien(x: int): int          |
+| + kiemTraTangDan(): bool                 |
+| + timLeNhoNhat(ketQua: int&): bool       |
+| + timSNTLonNhat(ketQua: int&): bool      |
+| + sapXepTangDan()                        |
+| + sapXepGiamDan()                        |
++------------------------------------------+

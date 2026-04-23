@@ -1,0 +1,21 @@
++-------------------------+          +-----------------------------------------+
+|          cDiem          |          |                cTamGiac                 |
++-------------------------+          +-----------------------------------------+
+| - x: float              |          | - A: cDiem                              |
+| - y: float              | <------+ | - B: cDiem                              |
++-------------------------+    3     | - C: cDiem                              |
+| + cDiem()               |          +-----------------------------------------+
+| + cDiem(x: float, y: f) |          | + cTamGiac()                            |
+| + nhap()                |          | + cTamGiac(A: cDiem, B: cDiem, C: cDiem)|
+| + xuat()                |          | + ~cTamGiac()                           |
+| + tinhTien(dx, dy)      |          | + nhap()                                |
+| + quay(goc)             |          | + xuat()                                |
+| + khoangCach(d: cDiem)  |          | + kiemTraLoai(): string                 |
++-------------------------+          | + tinhChuVi(): float                    |
+                                     | + tinhDienTich(): float                 |
+                                     | + tinhTien(dx, dy)                      |
+                                     | + quay(goc)                             |
+                                     | + phongTo(k)                            |
+                                     | + thuNho(k)                             |
+                                     | + ve()                                  |
+                                     +-----------------------------------------+

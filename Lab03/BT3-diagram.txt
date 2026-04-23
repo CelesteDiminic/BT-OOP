@@ -1,0 +1,15 @@
++-------------------------+          +-----------------------------------------+
+|         cPhanSo         |          |               cDSPhanSo                 |
++-------------------------+          +-----------------------------------------+
+| - tu: int               | <------+ | - n: int                              |
+| - mau: int              |   1..* | - ds: vector<cPhanSo>                   |
++-------------------------+          +-----------------------------------------+
+| + cPhanSo(tu, mau)      |          | + nhap()                                |
+| + nhap(), xuat()        |          | + xuat()                                |
+| + rutGon()              |          | + tinhTong(): cPhanSo                   |
+| + cong(p): cPhanSo      |          | + timMax(): cPhanSo                     |
+| + lonHon(p): bool       |          | + timMin(): cPhanSo                     |
+| + getTu(): int          |          | + timPhanSoTuSNTMax(): cPhanSo          |
+| + checkTuSNT(): bool    |          | + sapXepTang()                          |
++-------------------------+          | + sapXepGiam()                          |
+                                     +-----------------------------------------+

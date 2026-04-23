@@ -1,0 +1,17 @@
++-------------------------+          +-----------------------------------------+
+|          cDiem          |          |                cDaGiac                  |
++-------------------------+          +-----------------------------------------+
+| - x: float              | <------+ | - soDinh: int                           |
+| - y: float              |   1..* | - tapDinh: vector<cDiem>                |
++-------------------------+          +-----------------------------------------+
+| + cDiem(x, y)           |          | + cDaGiac()                             |
+| + nhap(), xuat()        |          | + ~cDaGiac()                            |
+| + tinhTien(dx, dy)      |          | + nhap()                                |
+| + quay(goc)             |          | + xuat()                                |
+| + scale(k)              |          | + tinhChuVi(): float                    |
+| + khoangCach(d)         |          | + tinhDienTich(): float                 |
+| + getX(): float         |          | + tinhTien(dx, dy)                      |
+| + getY(): float         |          | + quay(goc)                             |
++-------------------------+          | + phongTo(k), thuNho(k)                 |
+                                     | + ve()                                  |
+                                     +-----------------------------------------+

@@ -1,0 +1,15 @@
++---------------------------------+          +-----------------------------------------+
+|           cCandidate            |          |             cListCandidate              |
++---------------------------------+          +-----------------------------------------+
+| - ma: string                    | <------+ | - n: int                                |
+| - ten: string                   |   1..* | - ds: vector<cCandidate>                |
+| - ngaySinh: string              |          +-----------------------------------------+
+| - diemToan: float               |          | + nhap()                                |
+| - diemVan: float                |          | + xuatLonHon15()                        |
+| - diemAnh: float                |          | + inThiSinhDiemCaoNhat()                |
++---------------------------------+          | + sapXepGiamDan()                       |
+| + cCandidate()                  |          +-----------------------------------------+
+| + nhap()                        |
+| + xuat() const                  |
+| + tinhTongDiem(): float         |
++---------------------------------+

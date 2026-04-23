@@ -1,0 +1,15 @@
++------------------------------------------+
+|                 cDaThuc                  |
++------------------------------------------+
+| - bac: int                               |
+| - heSo: vector<double>                   |
++------------------------------------------+
+| - chuanHoa()                             |
+| + cDaThuc()                              |
+| + cDaThuc(n: int)                        |
+| + nhap()                                 |
+| + xuat() const                           |
+| + tinhGiaTri(x: double): double          |
+| + cong(dt: cDaThuc): cDaThuc             |
+| + tru(dt: cDaThuc): cDaThuc              |
++------------------------------------------+
